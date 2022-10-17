@@ -11,7 +11,7 @@ window.addEventListener("load", function(){
 
 
 /**
- * デバッグ(色つけるときに追加)
+ * デバッグ(色つけるときに追加) 
  */
 
 /**
@@ -53,7 +53,7 @@ const donutParticlesGeometry = new THREE.TorusGeometry(2.5, 0.7, 26, 100);
 
 const donutParticlesMaterial = new THREE.PointsMaterial({
   size: 0.02, // Setting size
-  color: "green", // Setting color
+  color: :"blue", // Setting color
 });
 
 const donutParticles = new THREE.Points(donutParticlesGeometry, donutParticlesMaterial);
