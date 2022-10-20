@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body{
+  background-color: black;
+}
+
 #webgl{
   position: fixed;
   top: 0;
